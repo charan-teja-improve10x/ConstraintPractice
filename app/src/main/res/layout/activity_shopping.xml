@@ -12,7 +12,7 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="12dp"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/img_1" />
@@ -125,7 +125,7 @@
         android:id="@+id/textView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="4dp"
         android:gravity="center_horizontal"
         android:text="Cars"
         android:textSize="12dp"
@@ -213,7 +213,7 @@
         android:id="@+id/imageView31"
         android:layout_width="160dp"
         android:layout_height="170dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintEnd_toStartOf="@+id/imageView32"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_chainStyle="spread_inside"
@@ -236,7 +236,9 @@
         android:id="@+id/textView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
         android:text="Apple Watch Series 3"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/imageView31"
         app:layout_constraintStart_toStartOf="@+id/imageView31"
         app:layout_constraintTop_toBottomOf="@+id/imageView31" />
@@ -245,7 +247,9 @@
         android:id="@+id/textView28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
         android:text="Amazfit Pace"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/textView27"
         app:layout_constraintEnd_toEndOf="@+id/imageView32"
         app:layout_constraintStart_toStartOf="@+id/imageView32"
@@ -273,13 +277,15 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView33"
         app:layout_constraintTop_toTopOf="@+id/imageView33"
-        app:srcCompat="@drawable/img_4" />
+        app:srcCompat="@drawable/phone" />
 
     <TextView
         android:id="@+id/textView30"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
         android:text="Samsung Gear s3"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/imageView33"
         app:layout_constraintStart_toStartOf="@+id/imageView33"
         app:layout_constraintTop_toBottomOf="@+id/imageView33" />
@@ -288,7 +294,9 @@
         android:id="@+id/textView32"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
         android:text="Iphone xs"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/imageView34"
         app:layout_constraintStart_toStartOf="@+id/imageView34"
         app:layout_constraintTop_toBottomOf="@+id/imageView34" />
